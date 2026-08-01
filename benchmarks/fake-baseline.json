@@ -1,0 +1,67 @@
+{
+  "benchmark_version": "stb.bench.v1",
+  "timestamp": 1784990378.7799847,
+  "environment": {
+    "python": "3.11.13",
+    "platform": "Linux-4.18.0-553.144.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "stb_version": "0.1.0",
+    "backend": "fake",
+    "launcher": "local",
+    "rss_bytes": 35565568,
+    "cpu_times": {
+      "user": 0.17,
+      "system": 0.02,
+      "children_user": 0.16,
+      "children_system": 0.02,
+      "iowait": 0.0
+    }
+  },
+  "cases": [
+    {
+      "method": "object_resolve",
+      "iterations": 20,
+      "statuses": {
+        "complete": 20
+      },
+      "min_ms": 0.257820007391274,
+      "median_ms": 0.3084214695263654,
+      "p95_ms": 0.4522490198723972,
+      "mean_ms": 0.34004738845396787,
+      "max_ms": 0.544038019143045,
+      "metrics": {
+        "input_bytes": 25,
+        "response_bytes": 700,
+        "npi_calls": 0,
+        "npi_ms": 0.0,
+        "python_ms": 0.2948510809801519,
+        "serialization_ms": 0.9512709802947938,
+        "transport_ms": 6.447474239394069,
+        "scanned": 0,
+        "returned": 0
+      }
+    },
+    {
+      "method": "object_query",
+      "iterations": 20,
+      "statuses": {
+        "complete": 20
+      },
+      "min_ms": 0.34474499989300966,
+      "median_ms": 0.39550900692120194,
+      "p95_ms": 0.4402979975566268,
+      "mean_ms": 0.39810055459383875,
+      "max_ms": 0.44476304901763797,
+      "metrics": {
+        "input_bytes": 27,
+        "response_bytes": 1353,
+        "npi_calls": 0,
+        "npi_ms": 0.0,
+        "python_ms": 0.4049210692755878,
+        "serialization_ms": 1.3490969431586564,
+        "transport_ms": 7.609867141582072,
+        "scanned": 0,
+        "returned": 80
+      }
+    }
+  ]
+}
